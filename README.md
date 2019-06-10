@@ -1,2 +1,3 @@
-# norfolkgo.github.io
+# NorfolkGo
+
 Website for Norfolk Golang User Group
