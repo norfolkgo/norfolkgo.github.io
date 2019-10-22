@@ -1,0 +1,6 @@
+baseURL = "https://norfolkgolang.org"
+languageCode = "en-us"
+Title = "Norfolk Go Meetup"
+
+[params]
+  aboutText = "About us blurb goes here"
