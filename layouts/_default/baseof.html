@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="sidebar_container">
+       {{ block "main" . }}{{ end }}
+       {{ partial "footer.html" . }}
+    </div>
+    <div class="events_containers">
+        {{ partial "events.html" . }}
+    </div>
+  </body>
+</html>

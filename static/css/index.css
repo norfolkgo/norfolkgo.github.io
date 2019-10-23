@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "sidebar events"
+}
+
+/* baseof */
+.sidebar {
+    grid-area: sidebar;
+}
+
+.events_containers {
+    grid-area: events;
+}
+
+/* index */
+.logo {
+    width: 70%;
+}
+

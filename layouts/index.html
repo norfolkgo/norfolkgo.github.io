@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<div>
+    <h1 class="title">{{ .Site.Title }}</h1>
+    {{ $logo := "images/gopher_norfolk.png" | absURL }}
+    <img class="logo" src="{{ $logo }}" alt="Norfolk Gophers Logo">
+    <p class="about">{{ .Site.Params.aboutText | markdownify }}</p>
+</div>
+
+{{ end }}
