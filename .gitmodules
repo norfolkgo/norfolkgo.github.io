@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/norfolkgo/norfolkgo.github.io.git
+	branch = master
