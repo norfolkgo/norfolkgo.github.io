@@ -2,6 +2,7 @@ baseURL = "https://norfolkgolang.org"
 languageCode = "en-us"
 Title = "Norfolk Go Meetup"
 publishDir = "https://github.com/norfolkgo/norfolkgo.github.io.git"
+disableKinds = [“taxonomy”, “taxonomyTerm”]
 
 [params]
   aboutText = "About us blurb goes here"
