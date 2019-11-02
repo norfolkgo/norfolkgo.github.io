@@ -10,7 +10,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # change branches
 
-git checkout gh-pages
+git checkout -b gh-pages
 
 # Copy public folder
 cp public/* .
